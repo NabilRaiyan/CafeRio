@@ -112,12 +112,13 @@ hr{
     display: inline-block;
 }
 .hero-img{
-    width: 85%;
-    height: 96%;
+    width: 60%;
+    height: 116%;
     position: absolute;
-    right: 170px;
-    bottom: 80px;
+    right: 199px;
+    top: 2px;
     filter: drop-shadow(20px 10px 12px var(--nav-bgColor));
+    rotate: -13deg;
 }
 
 /* About us section style */

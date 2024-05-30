@@ -35,6 +35,7 @@ body{
     font-family: var(--subtext-font);
     font-size: 1.1rem;
     margin: 0 20px;
+    cursor: pointer;
 }
 
 .link:hover{
@@ -103,7 +104,6 @@ hr{
     font-family: var(--sub-text-font);
     font-size: 1.9rem;
     color: var(--sub-text-color);
-    word-wrap: break-word;
 }
 
 
@@ -118,8 +118,81 @@ hr{
     right: 170px;
     bottom: 80px;
     filter: drop-shadow(20px 10px 12px var(--nav-bgColor));
+}
+
+/* About us section style */
+
+.about-hr{
+    border: 0.5px solid var(--nav-bgColor);
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.about-section{
+    margin: 50px;
+    text-align: center;
+    font-family: var(--sub-text-font);
+    display: inline;
+    justify-content: center;
 
 }
+
+
+.about-title{
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--title-color);
+    margin-bottom: 20px;
+    font-family: var(--title-font);
+}
+.about-sub-text{
+    font-size: 1.4rem;
+    color: var(--sub-text-color);
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+/* quality div style */
+
+.quality-div{
+    width: 20vw;
+    display: inline-block;
+    margin: 20px 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+    text-align: center;
+}
+
+.quality-subtext{
+    font-family: var(--subtext-font);
+    color: var(--sub-text-color);
+    font-size: 0.9rem;
+}
+
+.quality-text{
+    text-align: center;
+    font-family: var(--title-font);
+    color: var(--title-color);
+}
+.quality-1{
+    margin-left: 220px;
+}
+
+.quality-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
 
 
 

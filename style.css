@@ -81,6 +81,29 @@ hr{
 .left-hero-section{
     display: inline-block;
     width: 50%;
+    margin: 30px 0 20px 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.hero-text{
+    font-family: var(--logo-font);
+    color: var(--sub-text-color);
+    font-size: 5.6rem;
+    display: inline;
+    line-height: 1.2;
+}
+
+.hero-text span{
+    color: var(--title-color);
+    font-family: var(--title-font);
+}
+
+.hero-subtext{
+    font-family: var(--sub-text-font);
+    font-size: 1.9rem;
+    color: var(--sub-text-color);
+    word-wrap: break-word;
 }
 
 
@@ -89,9 +112,13 @@ hr{
     display: inline-block;
 }
 .hero-img{
-    width: 80%;
+    width: 85%;
+    height: 96%;
     position: absolute;
-    right: 200px;
+    right: 170px;
+    bottom: 80px;
+    filter: drop-shadow(20px 10px 12px var(--nav-bgColor));
+
 }
 
 

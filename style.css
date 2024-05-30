@@ -1,0 +1,105 @@
+:root{
+    --background-color: #EADFCE;
+    --nav-bgColor: #633D30;
+    --nav-linksColor: #F2E3D1;
+    --title-color: #7C3A15;
+    --sub-text-color: #9A674A;
+    --section-color: #ECE3DD;
+    --title-font: "Titillium Web", sans-serif;
+    --sub-text-font: "Montserrat", sans-serif;
+    --logo-font: "Dancing Script", cursive;
+}
+
+
+body{
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+/* navbar and logo style */
+
+.navbar{
+    background-color: var(--nav-bgColor);
+    font-family: var(--title-font);
+    padding: 3px;
+}
+
+.navbar-links{
+    list-style: none;
+    margin: 10px;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--nav-linksColor);
+    font-family: var(--subtext-font);
+    font-size: 1.1rem;
+    margin: 0 20px;
+}
+
+.link:hover{
+    border: none;
+    border-bottom: 1px solid var(--background-color);
+    color: white;
+}
+
+.nav-link{
+    display: inline;
+}
+
+.logo{
+    font-size: 1.2rem;    
+}
+
+.logo span{
+    font-family: var(--logo-font);
+    color: rgb(252, 254, 255);
+}
+
+.login{
+    background-color: var(--background-color);
+    border-radius: 5px;
+    color: var(--nav-bgColor);
+    padding: 2px 7px;
+}
+.login:hover{
+    color: var(--sub-text-color);
+}
+
+/* hero section style */
+
+hr{
+    border: 0.5px solid var(--nav-bgColor);
+}
+
+
+.hero-section{
+    margin: 50px 50px 100px;
+}
+
+/* left hero section */
+.left-hero-section{
+    display: inline-block;
+    width: 50%;
+}
+
+
+/* right hero section */
+.right-hero-section{
+    display: inline-block;
+}
+.hero-img{
+    width: 80%;
+    position: absolute;
+    right: 200px;
+}
+
+
+
+
+
+/* sjkdncjnsdjncdncldncldncldsnljnc */
+img{
+    width: 500px;
+    height: 500px;
+}

@@ -311,6 +311,52 @@ button:hover{
     margin: 0 10px;
 }
 
+/* responsiveness for mobile view */
+
+@media (max-width: 550px) {
+   .right-hero-section{
+    display: block;
+    width: 90vw;
+    margin: 20px auto;
+    text-align: center;
+   }
+   .hero-img{
+    position: relative;
+    width: 100%;
+   }
+   .left-hero-section{
+    text-align: left;
+   }
+
+   .quality-div{
+    text-align: center;
+    display: block;
+    width: 90vw;
+   }
+
+   .quality-1{
+    margin-left: 0;
+
+   }
+
+   .product{
+    display: block;
+    text-align: center;
+    width: 90vw;
+   }
+
+   .product-div-1{
+    margin: 10px;
+   }
+
+   .media, .contact, .location{
+    display: block;
+    width: 90vw;
+   }
+   .copyright{
+    margin-left: 0;
+   }
+}
 
 
 

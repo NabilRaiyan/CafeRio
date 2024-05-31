@@ -314,6 +314,16 @@ button:hover{
 /* responsiveness for mobile view */
 
 @media (max-width: 550px) {
+
+    /* navbar style */
+
+    .nav-link{
+        display: block;
+        margin: 20px 0;
+    }
+
+    /* hero style */
+
    .right-hero-section{
     display: block;
     width: 90vw;
@@ -328,6 +338,8 @@ button:hover{
     text-align: left;
    }
 
+   /* quality div style */
+
    .quality-div{
     text-align: center;
     display: block;
@@ -339,6 +351,8 @@ button:hover{
 
    }
 
+   /* product div style */
+
    .product{
     display: block;
     text-align: center;
@@ -349,13 +363,16 @@ button:hover{
     margin: 10px;
    }
 
+   /* footer style */
+
    .media, .contact, .location{
     display: block;
     width: 90vw;
    }
    .copyright{
-    margin-left: 0;
+    margin-right: 0;
    }
+
 }
 
 

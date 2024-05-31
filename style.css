@@ -4,7 +4,7 @@
     --nav-linksColor: #F2E3D1;
     --title-color: #7C3A15;
     --sub-text-color: #9A674A;
-    --section-color: #ECE3DD;
+    --footer-color: #ECE3DD;
     --title-font: "Titillium Web", sans-serif;
     --sub-text-font: "Montserrat", sans-serif;
     --logo-font: "Dancing Script", cursive;
@@ -203,21 +203,114 @@ button:hover{
     color: var(--background-color);
 }
 
+/* popular product section style */
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* sjkdncjnsdjncdncldncldncldsnljnc */
-img{
-    width: 500px;
-    height: 500px;
+.products-section{
+    margin: 50px;
+    text-align: center;
+    font-family: var(--sub-text-font);
+    display: inline;
+    justify-content: center;
 }
+
+.product-text{
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--title-color);
+    margin-bottom: 20px;
+    font-family: var(--title-font);
+}
+
+
+.product{
+    width: 25vw;
+    display: inline-block;
+    margin: 20px 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.product-name{
+    text-align: center;
+    font-family: var(--title-font);
+    color: var(--title-color);
+}
+.price{
+    font-family: var(--subtext-font);
+    color: var(--sub-text-color);
+    font-size: 1rem;
+}
+
+.more-product-btn{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    background-color: var(--nav-bgColor);
+    color: var(--background-color);
+    font-size: 1rem;
+}
+
+.product-div-1{
+    margin-left: 95px;
+
+}
+
+/* footer style */
+
+.footer-section{
+    background-color: var(--footer-color);
+    margin-top: 15px;
+    text-align: center;
+}
+
+.media, .location, .contact{
+    margin: 15px 10px 0;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+}
+
+.contact{
+    margin-right: 100px;
+}
+
+.copyright{
+    padding-bottom: 20px;
+    margin: 0 100px 0 0;
+    font-family: var(--sub-text-font);
+    color: var(--sub-text-color);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.contact-title, .location-title, .media-title{
+
+    font-family: var(--title-font);
+    color: var(--title-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-weight: 400;
+}
+.contact-text, .location-text{
+    font-family: var(--sub-text-font);
+    color: var(--sub-text-color);
+    font-size: 1.1rem;
+}
+
+.fa-brands{
+    color: var(--nav-bgColor);
+    margin: 0 10px;
+}
+
+
+
+

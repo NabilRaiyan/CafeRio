@@ -248,7 +248,7 @@ button:hover{
     color: var(--sub-text-color);
     font-size: 1rem;
 }
-
+/* more product button */
 .more-product-btn{
     display: block;
     text-align: center;

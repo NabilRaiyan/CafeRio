@@ -186,6 +186,23 @@ hr{
     border-radius: 3px;
 }
 
+button{
+    background-color: var(--nav-linksColor);
+    border: 1px solid var(--nav-bgColor);
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: var(--nav-bgColor);
+    font-family: var(--title-font);
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: var(--sub-text-color);
+    color: var(--background-color);
+}
+
 
 
 

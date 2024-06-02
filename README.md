@@ -12,7 +12,7 @@ This repository contains the code for a static, mobile-responsive landing page f
 
 ## Demo
 
-You can view a live demo of the landing page [here](#).
+You can view a live demo of the landing page [here](https://nabilraiyan.github.io/CafeRio.github.io/).
 
 ## Screenshots
 

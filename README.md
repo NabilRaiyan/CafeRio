@@ -37,7 +37,7 @@ To set up and run this project locally:
     ```
 2. **Navigate to the project directory**:
     ```bash
-    cd coffee-shop-landing-page
+    cd your-project-directory
     ```
 3. **Open `index.html` in your browser** to view the landing page.
 

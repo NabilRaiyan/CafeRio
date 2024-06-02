@@ -17,7 +17,8 @@ You can view a live demo of the landing page [here](https://nabilraiyan.github.i
 ## Screenshots
 
 ### Desktop View
-![Desktop View](path/to/desktop-screenshot.png)
+<img width="1433" src="https://github.com/NabilRaiyan/CafeRio.github.io/assets/31074461/83628b22-edfd-4482-b320-648c12954160">
+
 
 ### Mobile View
 ![Mobile View](path/to/mobile-screenshot.png)

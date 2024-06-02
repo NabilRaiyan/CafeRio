@@ -35,13 +35,11 @@ To set up and run this project locally:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/coffee-shop-landing-page.git
+        https://github.com/NabilRaiyan/CafeRio.github.io.git
     ```
 2. **Navigate to the project directory**:
     ```bash
     cd your-project-directory
     ```
 3. **Open `index.html` in your browser** to view the landing page.
-
-## File Structure
 

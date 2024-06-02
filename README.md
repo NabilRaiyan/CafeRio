@@ -14,6 +14,7 @@ This repository contains the code for a static, mobile-responsive landing page f
 
 You can view a live demo of the landing page [here](https://nabilraiyan.github.io/CafeRio.github.io/).
 
+
 ## Screenshots
 
 ### Desktop View
@@ -21,7 +22,7 @@ You can view a live demo of the landing page [here](https://nabilraiyan.github.i
 
 
 ### Mobile View
-![Mobile View](path/to/mobile-screenshot.png)
+<img width="487" alt="Screenshot 2024-06-02 at 8 22 54 PM" src="https://github.com/NabilRaiyan/CafeRio.github.io/assets/31074461/31d0f0fa-5e67-43e0-9e58-85366e185771">
 
 ## Technologies Used
 
